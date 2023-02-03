@@ -1,10 +1,10 @@
-const names = ['salman', 'farhan', 'hasib','nafi', 'mamun', 'nahid', 'salman', 'mamun', 'nahid'];
+const names = ['salman', 'nafi', 'hasib', 'limon', 'nahid', 'salman', 'nahid', 'mamun', 'hasib'];
 
 function removeDuplicate(names) {
-    const unique = [];
+    const unique = []; 
     for (let i = 0; i < names.length; i++) {
-        const name = names[i];
-        if (unique.includes(name) === false) {
+        const name= names[i];
+        if(unique.includes(name) === false) {
             unique.push(name);
         }
     }
